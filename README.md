@@ -1,2 +1,2 @@
-# Franka_Grasping_with_RL
-Utilizing Reinforcement Learning Algorithms to manipulate a Franka Emika Robot Arm in Simulation
+# Franka_Manipulation
+Manipulate a Franka Emika Robot Arm in Simulation using various algorithms  
