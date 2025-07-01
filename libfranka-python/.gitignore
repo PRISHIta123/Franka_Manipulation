@@ -1,0 +1,11 @@
+build/
+__pycache__/
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.def
+*.manifest
+*.res
+*.egg-info
