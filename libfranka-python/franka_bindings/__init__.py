@@ -1,5 +1,6 @@
 from .franka_bindings import (
     Robot,
+    Gripper,
     ControllerMode,
     Torques,
     JointPositions,
@@ -11,6 +12,7 @@ from .franka_bindings import (
 
 __all__ = [
     'Robot',
+    'Gripper',
     'ControllerMode',
     'Torques',
     'JointPositions',

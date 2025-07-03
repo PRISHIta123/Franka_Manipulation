@@ -1,4 +1,5 @@
 #include "franka_bindings.h"
+#include <franka/gripper.h>
 #include <franka/exception.h>
 #include <franka/duration.h>
 #include "realtime_control/realtime_control.hpp"
@@ -177,6 +178,17 @@ PYBIND11_MODULE(franka_bindings, m) {
             self.startRealtimeControl();
         })
         .def("get_realtime_control", &PyRobot::getRealtimeControl, py::return_value_policy::reference);
+
+    // Bind Gripper
+    py::class_<franka::Gripper>(m, "Gripper")
+    .def(py::init<const std::string&>())
+    .def("homing", &franka::Gripper::homing)
+    .def("grasp", &franka::Gripper::grasp,
+         py::arg("width"), py::arg("speed"), py::arg("force"),
+         py::arg("epsilon_inner") = 0.005, py::arg("epsilon_outer") = 0.005)
+    .def("move", &franka::Gripper::move)
+    .def("stop", &franka::Gripper::stop)
+    .def("read_once", &franka::Gripper::readOnce);
 
     // Add docstring
     m.doc() = "Python bindings for libfranka realtime control";
