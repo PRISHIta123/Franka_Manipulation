@@ -3,8 +3,8 @@ import time
 from franka_bindings import Robot, ControllerMode, JointPositions
 
 #Move all 7 joints in the franka robot arm using pd control
-#PD controller u = Kp(q-q_des)+ Kd(q*)
-#u is the torquw
+#PD controller u = Kp(q-q_des) - Kd(q*)
+#u is the torque
 #Kp is the proportional gain
 #Kd is the derivative gain
 #q is current joint position, q_des is desired joint position, q* is current joint velocity
@@ -62,9 +62,9 @@ def main():
             # Compute PD control (emulated by generating new position)
             error = q_desired - q_curr
 
-            tau = Kp * error + Kd * dq_curr
+            tau = Kp * error - Kd * dq_curr
 
-            next_q = q_curr + tau
+            next_q = q_curr + 0.01 * tau
             command = JointPositions(next_q.tolist())
             control.writeOnce(command)
 
