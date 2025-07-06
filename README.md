@@ -20,6 +20,6 @@ Manipulate a Franka Emika Robot Arm in Simulation using various algorithms
 - [x] Reinforcement Learning (RL)  
   - Algorithms: SAC / PPO  
   - Use `stable-baselines3` or custom RL code
-- [ ] Residual Policy Learning  
+- [x] Residual Policy Learning  
   - Combine scripted control with learned corrections
 
