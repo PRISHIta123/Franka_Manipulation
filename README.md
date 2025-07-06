@@ -17,7 +17,7 @@ Manipulate a Franka Emika Robot Arm in Simulation using various algorithms
 
 - [x] Behavior Cloning (BC)  
   - Imitate trajectory from expert demonstration
-- [ ] Reinforcement Learning (RL)  
+- [x] Reinforcement Learning (RL)  
   - Algorithms: SAC / PPO  
   - Use `stable-baselines3` or custom RL code
 - [ ] Residual Policy Learning  
