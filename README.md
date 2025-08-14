@@ -1,5 +1,5 @@
 # Franka_Manipulation
-Manipulate a Franka Emika Robot Arm in Simulation using various algorithms classical and learned algorithms.  
+Manipulate a Franka Emika Robot Arm in Simulation using classical control and learned control algorithms.  
 
 Instructions:  
 Clone this repo, create a conda environment and install the requirements.  
@@ -13,7 +13,7 @@ To run the simulator use this command:
 ```
 run-franka-sim-server -v
 ```
-You might need to hold the option key (if using Mac) and drag robot to the center of the simulation.  
+You might need to hold the option key (if using Mac) and drag the robot to the center of the simulation.  
 All the algorithms will generate robot motions in this simulation.  
 
 ### Classical Control  
