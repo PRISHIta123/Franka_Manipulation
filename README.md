@@ -20,7 +20,7 @@ All the algorithms will generate robot motions in this simulation.
 In another terminal window, activate the same conda env and navigate to the libfranka-python subfolder:  
 ```
 conda activate libfranka
-cd Franka_Manipulation/libfranka-python/Classical-Control
+cd Franka_Manipulation/libfranka-python/Classical_Control
 ```
 
 - [x] Sinusoidal y-axis joint 4 motion
@@ -29,7 +29,7 @@ python sinusoidal_motion.py
 ```
 <div style="text-align: left;">
 <video style="width: 300; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_sinusoidal.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_sinusoidal.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -40,7 +40,7 @@ python pick_and_place.py
 ```
 <div style="text-align: left;">
 <video style="width: 300; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pick_place.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pick_place.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -51,7 +51,7 @@ python pd_control.py
 ```
 <div style="text-align: left;">
 <video style="width: 300; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pd_control.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pd_control.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -62,7 +62,7 @@ python inverse_kinematics_osc.py
 ```
 <div style="text-align: left;">
 <video style="width: 300; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -73,7 +73,7 @@ python impedance_control.py
 ```
 <div style="text-align: left;">
 <video style="width: 300; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_impedance_control.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_impedance_control.mp4" type="video/mp4">
 </video>
 </div>
      
@@ -81,7 +81,7 @@ python impedance_control.py
 In another terminal window, activate the same conda env and navigate to the libfranka-python subfolder:  
 ```
 conda activate libfranka
-cd Franka_Manipulation/libfranka-python/Learned-Control
+cd Franka_Manipulation/libfranka-python/Learned_Control
 ```
 
 - [x] Behavior Cloning (BC)  
@@ -100,7 +100,7 @@ python run_policy.py
 ```
 <div style="text-align: left;">
 <video style="width: 600; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Behavior Cloning/demos/BC.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Behavior Cloning/demos/BC.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -118,7 +118,7 @@ python reinforcement_learning.py
 PPO model is saved as ppo_franka_joint.zip    
 <div style="text-align: left;">
 <video style="width: 600; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Reinforcement Learning/demos/PPO_RL.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Reinforcement Learning/demos/PPO_RL.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -139,6 +139,6 @@ python deploy_residual_policy.py
 ```
 <div>
 <video style="width: 600; height: auto;" controls>
-  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Residual Policy Learning/demos/RPL.mov" type="video/quicktime">
+  <source src="https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Residual Policy Learning/demos/RPL.mp4" type="video/mp4">
 </video>
 </div>
