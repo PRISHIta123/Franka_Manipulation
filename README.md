@@ -27,55 +27,34 @@ cd Franka_Manipulation/libfranka-python/Classical_Control
 ```
 python sinusoidal_motion.py
 ```
-<div style="text-align: left;">
-<video style="width: 300; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_sinusoidal.mp4" type="video/mp4">
-</video>
-</div>
-
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_sinusoidal.gif)
 
 - [x] Pick and place joints 0 and 4 motion
 ```
 python pick_and_place.py
 ```
-<div style="text-align: left;">
-<video style="width: 300; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pick_place.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pick_place.gif)
 
 - [x] Proportional-Derivative (PD) control  
   - Follow reference joint trajectories
 ```
 python pd_control.py
 ```
-<div style="text-align: left;">
-<video style="width: 300; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pd_control.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_pd_control.gif)
 
 - [x] Inverse Kinematics (IK) / Operational Space Control    
   - Cartesian control of the end-effector
 ```
 python inverse_kinematics_osc.py
 ```
-<div style="text-align: left;">
-<video style="width: 300; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.mp4" type="video/mp4">
-</video>
-</div>
+![alt text]("https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.gif)
 
 - [x] Impedance Control    
   - Simulate compliant behaviors (e.g., pushing, insertion)
 ```
 python impedance_control.py
 ```
-<div style="text-align: left;">
-<video style="width: 300; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_impedance_control.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_impedance_control.gif)
      
 ### Learning-based Control  
 In another terminal window, activate the same conda env and navigate to the libfranka-python subfolder:  
@@ -98,11 +77,7 @@ Will save trained model in trajectory_model.pth
 ```
 python run_policy.py
 ```
-<div style="text-align: left;">
-<video style="width: 600; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Behavior Cloning/demos/BC.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Behavior%20Cloning/demos/BC.gif)
 
 - [x] Reinforcement Learning (RL)  
   - Algorithms: SAC / PPO  
@@ -116,11 +91,7 @@ Creates a state-action-reward environment within libfranka-sim for end effector 
 python reinforcement_learning.py
 ```
 PPO model is saved as ppo_franka_joint.zip    
-<div style="text-align: left;">
-<video style="width: 600; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Reinforcement Learning/demos/PPO_RL.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Reinforcement%20Learning/demos/PPO_RL.gif)
 
 - [x] Residual Policy Learning  
   - Combine scripted control with learned corrections
@@ -137,8 +108,4 @@ PPO finetuning model over base oscillatory controller is saved as ppo_residual_f
 ```
 python deploy_residual_policy.py
 ```
-<div>
-<video style="width: 600; height: auto;" controls>
-  <source src="https://raw.githubusercontent.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Residual Policy Learning/demos/RPL.mp4" type="video/mp4">
-</video>
-</div>
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Learned_Control/Residual%20Policy%20Learning/demos/RPL.gif)
