@@ -47,7 +47,7 @@ python pd_control.py
 ```
 python inverse_kinematics_osc.py
 ```
-![alt text]("https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.gif)
+![alt text](https://github.com/PRISHIta123/Franka_Manipulation/blob/main/libfranka-python/Classical_Control/demos/franka_inverse_kinematics.gif)
 
 - [x] Impedance Control    
   - Simulate compliant behaviors (e.g., pushing, insertion)
